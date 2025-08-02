@@ -30,7 +30,6 @@ StarMovie is a modern movie discovery and bookmarking application designed to he
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **State Management**: Redux 
-- **Utilities**: [SweetAlert2](https://sweetalert2.github.io/) for alerts, [@faker-js/faker](https://fakerjs.dev/) for mock data
 
 ---
 
