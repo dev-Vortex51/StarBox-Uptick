@@ -1,4 +1,4 @@
-# Hrdeck Uptick
+# StarMovie
 
 StarMovie is a modern movie discovery and bookmarking application designed to help users explore trending movies and save their favorites. Built with React, TypeScript, and Vite, StarMovie offers a fast, engaging, and responsive user experience. A simple login feature is implemented using Redux Persist to store and rehydrate user authentication state across sessions.
 
