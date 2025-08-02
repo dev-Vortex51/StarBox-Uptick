@@ -22,7 +22,8 @@ const Login = () => {
   };
 
   return (
-    <form
+   <div className=''>
+     <form
       onSubmit={handleLogin}
       className='flex flex-col gap-4 items-center justify-center h-screen'>
       <input
@@ -40,6 +41,7 @@ const Login = () => {
         Get Started
       </button>
     </form>
+   </div>
   );
 };
 
