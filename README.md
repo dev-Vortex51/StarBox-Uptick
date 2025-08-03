@@ -1,4 +1,4 @@
-# StarMovie
+# StarWars
 
 StarMovie is a modern movie discovery and bookmarking application designed to help users explore trending movies and save their favorites. Built with React, TypeScript, and Vite, StarMovie offers a fast, engaging, and responsive user experience. A simple login feature is implemented using Redux Persist to store and rehydrate user authentication state across sessions.
 
@@ -81,8 +81,8 @@ hrdeck/
 │   ├── constants/         # Static data and field definitions
 │   ├── context/           # React Context for state management
 │   ├── hooks/             # Custom React hooks
-│   ├── layouts/           # Layout components (Dashboard, etc.)
-│   ├── pages/             # Page components (Dashboard, Employees, Login, etc.)
+│   ├── layouts/           # Layout components 
+│   ├── pages/             # Page components 
 │   ├── types/             # TypeScript type definitions
 │   ├── utils/             # Utility functions and mock data
 │   ├── index.css          # Global styles (Tailwind)

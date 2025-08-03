@@ -15,25 +15,34 @@ const Layout = () => {
   };
 
   return (
-    <div className='grid grid-rows-[auto_1fr_auto] min-h-screen'>
-      <header className='bg-blue-800 h-[80px] text-white'>
-        <div className='max-w-5xl mx-auto h-full flex justify-between items-center px-6'>
-          <h1 className='text-xl font-bold'>StarWars</h1>
-          <div className='flex items-center gap-3'>
-            <h3 className='text-lg'>{user}</h3>
-            <button onClick={handleLogout}>
-              <LogOut className='w-5 h-5 hover:text-gray-300 cursor-pointer' />
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 text-white">
+      {/*  Header */}
+      <header className="backdrop-blur bg-black/30 border-b border-white/10 sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto h-[80px] flex justify-between items-center px-6">
+          <h1 className="text-2xl font-bold tracking-wide">🌌 StarWars</h1>
+          <div className="flex items-center gap-4">
+            <span className="text-md font-medium">{user}</span>
+            <button
+              onClick={handleLogout}
+              className="p-2 rounded-full hover:bg-white/10 transition"
+              title="Logout"
+            >
+              <LogOut className="w-5 h-5 text-white" />
             </button>
           </div>
         </div>
       </header>
 
-      <main className='p-4 max-w-5xl mx-auto w-full'>
-        <Outlet />
+      {/*  Main Content */}
+      <main className="flex-1 px-4 py-8 max-w-6xl mx-auto w-full">
+        <div className="bg-white/5 border border-white/10 rounded-xl p-6 backdrop-blur-md shadow-lg">
+          <Outlet />
+        </div>
       </main>
 
-      <footer className='bg-gray-100 p-4 text-center'>
-        <p className='text-sm text-gray-600'>© 2025 StarWars App</p>
+      {/*  Footer */}
+      <footer className="bg-black/30 border-t border-white/10 backdrop-blur py-4 text-center">
+        <p className="text-sm text-gray-400">© 2025 StarWars App. May the Force be with you.</p>
       </footer>
     </div>
   );
