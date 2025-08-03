@@ -1,6 +1,6 @@
 # StarWars
 
-StarMovie is a modern movie discovery and bookmarking application designed to help users explore trending movies and save their favorites. Built with React, TypeScript, and Vite, StarMovie offers a fast, engaging, and responsive user experience. A simple login feature is implemented using Redux Persist to store and rehydrate user authentication state across sessions.
+StarWars is a modern movie discovery and bookmarking application designed to help users explore trending movies and save their favorites. Built with React, TypeScript, and Vite, StarWars offers a fast, engaging, and responsive user experience. A simple login feature is implemented using Redux Persist to store and rehydrate user authentication state across sessions.
 
 ---
 
@@ -35,7 +35,7 @@ StarMovie is a modern movie discovery and bookmarking application designed to he
 
 ## Live Deployment
 
-Check out the live site here: [https://hrdeck-uptick.netlify.app](https://hrdeck-uptick.netlify.app)
+Check out the live site here: [https://starwars-app-uptick.netlify.app/](https://starwars-app-uptick.netlify.app/)
 
 ---
 
